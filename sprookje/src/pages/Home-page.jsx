@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DATA from '../../api/data.json';
 import FairyTale from "../components/Fairytales";
+import "../../src/App.css";
 
 function HomePage() {
     const [searchTerm, setSearchTerm] = useState("");
@@ -10,6 +11,7 @@ function HomePage() {
     return (
         <div>
             <h1>IN THE SPOTLIGHT</h1>
+            <div className="container">
             {filteredFairyTale.map((fairytale) => (
                     <FairyTale
                         key={fairytale.id}
@@ -18,6 +20,7 @@ function HomePage() {
                         student={fairytale.student}
                     />
                 ))}
+            </div>
         </div>
     );
 }
