@@ -1,8 +1,4 @@
-import { useState } from 'react'
-
-function Movie(props) {
-  const [count, setCount] = useState(0)
-
+function Fairytales(props) {
   return (
     <>
       <div>
@@ -14,4 +10,4 @@ function Movie(props) {
   )
 }
 
-export default Movie;
+export default Fairytales;

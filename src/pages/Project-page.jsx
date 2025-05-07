@@ -1,16 +1,16 @@
-import { useState } from "react";
-import DATA from '../../api/data.json';
+import DATA from '../api/data.json';
 import FairyTale from "../components/Fairytales";
+import React, { useState } from "react";
 import "../../src/App.css";
 
-function HomePage() {
-    const [searchTerm, setSearchTerm] = useState("");
+function ProjectPage() {
+    const [searchTerm] = useState("");
     const filteredFairyTale = DATA.filter((fairytale) => 
         fairytale.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
     return (
         <div>
-            <h1>IN THE SPOTLIGHT</h1>
+            <h1>ALL PROJECTS</h1>
             <div className="container">
             {filteredFairyTale.map((fairytale) => (
                     <FairyTale
@@ -25,4 +25,4 @@ function HomePage() {
     );
 }
 
-export default HomePage;
+export default ProjectPage;

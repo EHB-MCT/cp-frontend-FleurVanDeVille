@@ -1,0 +1,16 @@
+:root {
+  background-color: #EBF5EC;
+  background-image: url("./assets/background_image.png");
+  background-size: cover;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 20px;
+}
