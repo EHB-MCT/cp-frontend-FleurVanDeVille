@@ -2,43 +2,43 @@
     {
         "id": 1,
         "title": "Belle En Het Beest",
-        "image": "../public/sprookjes/belleenhetbeest.jpg",
+        "image": "https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/sprookjes/belleenhetbeest.jpg",
         "student": "Fleur Van De Ville"
     },
     {
         "id": 2,
         "title": "De Gelaarsde Kat",
-        "image": "../public/sprookjes/degelaarsdekat.jpg",
+        "image": "https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/sprookjes/degelaarsdekat.jpg",
         "student": "Fleur Van De Ville"
     },
     {
         "id": 3,
         "title": "De Kleine Zeermeermin",
-        "image": "../public/sprookjes/dekleinezeermeermin.jpg",
+        "image": "https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/sprookjes/dekleinezeermeermin.jpg",
         "student": "Fleur Van De Ville"
     },
     {
         "id": 4,
         "title": "De Schone Slaapster",
-        "image": "../public/sprookjes/deschoneslaapster.jpg",
+        "image": "https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/sprookjes/deschoneslaapster.jpg",
         "student": "Fleur Van De Ville"
     },
     {
         "id": 5,
         "title": "De Sneeuwkoningin",
-        "image": "../public/sprookjes/desneeuwkoningin.jpg",
+        "image": "https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/sprookjes/desneeuwkoningin.jpg",
         "student": "Fleur Van De Ville"
     },
     {
         "id": 6,
         "title": "Rapunzel",
-        "image": "../public/sprookjes/rapunzel.jpg",
+        "image": "https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/sprookjes/rapunzel.jpg",
         "student": "Fleur Van De Ville"
     },
     {
         "id": 7,
         "title": "Sneeuwwitje",
-        "image": "../public/sprookjes/sneeuwwitje.jpg",
+        "image": "https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/sprookjes/sneeuwwitje.jpg",
         "student": "Fleur Van De Ville"
     }
 ]
