@@ -1,6 +1,7 @@
-import React from "react";
 import { Link } from "react-router";
 import logo from "../assets/logo_erwaseens.png";
+import Searchbar from "./Searchbar";
+import "./Header.css";
 
 function Header() {
 	return (
@@ -10,12 +11,8 @@ function Header() {
 				<Link to="/">HOME</Link>
 				<Link to="/projects">PROJECTS</Link>
 				<Link to="/">MAKING-OF</Link>
-				<input
-					type="text"
-					placeholder="Search for a topic..."
-					//onChange={(e) => setSearchTerm(e.target.value)}
-				/>
 			</div>
+			<Searchbar />
 		</header>
 	);
 }
