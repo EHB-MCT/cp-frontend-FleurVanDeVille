@@ -1,0 +1,30 @@
+.home-page {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: "Bungee";
+}
+
+.container{
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+button {
+    background-color: #d3182f;
+    color: white;
+    border: none;
+    padding: 17px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Bungee", sans-serif;
+    display: block;
+    margin: 10px auto 200px auto;
+    align-items: center;
+}

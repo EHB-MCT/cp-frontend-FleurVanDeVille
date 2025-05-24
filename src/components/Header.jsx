@@ -7,12 +7,14 @@ function Header() {
 	return (
 		<header>
 			<img src={logo} className="App-logo" alt="logo" />
-			<div>
-				<Link to="/">HOME</Link>
-				<Link to="/projects">PROJECTS</Link>
-				<Link to="/">MAKING-OF</Link>
+			<div className="nav-search">
+				<div className="nav">
+					<Link to="/">HOME</Link>
+					<Link to="/projects">PROJECTS</Link>
+					<Link to="/making-of">MAKING-OF</Link>
+				</div>
+				<Searchbar />
 			</div>
-			<Searchbar />
 		</header>
 	);
 }

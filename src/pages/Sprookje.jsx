@@ -1,8 +1,6 @@
-import { useState } from "react";
 import "../../src/App.css";
 
-function MakingOfPage() {
-    const [searchTerm, setSearchTerm] = useState("");
+function Sprookje() {
     return (
         <div>
             <h1>Making-of — Rapunzel</h1>
@@ -22,10 +20,9 @@ function MakingOfPage() {
                     front-end magic. With parallax scrolls and animated charm, this tale
                     isn’t just told — it’s experienced.
                 </p>
-                <button>Visit website</button>
             </div>
         </div>
     );
 }
 
-export default MakingOfPage;
+export default Sprookje;

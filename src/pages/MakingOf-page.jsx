@@ -1,4 +1,5 @@
 import "../../src/App.css";
+import { Link } from "react-router";
 
 function MakingOfPage() {
 	return (
@@ -20,6 +21,7 @@ function MakingOfPage() {
 					front-end magic. With parallax scrolls and animated charm, this tale
 					isn’t just told — it’s experienced.
 				</p>
+				<Link to="/sprookje">Visite Rapunzel</Link>
                 <button>Visit website</button>
 			</div>
 		</div>

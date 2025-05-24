@@ -10,7 +10,7 @@ function Footer() {
 				<h1>ABOUT US</h1>
 				<p>
 					Welcome to a world where fairy tales scroll with depth. Through
-					parallax magic, we bring front-end stories to life — one layer at a
+					parallax magic,  <br/>we bring front-end stories to life — one layer at a
 					time. ✨
 				</p>
 			</div>
