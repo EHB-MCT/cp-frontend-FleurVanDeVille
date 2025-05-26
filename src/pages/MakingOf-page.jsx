@@ -1,16 +1,32 @@
 import "../../src/App.css";
 import { Link } from "react-router";
+import "./MakingOf-page.css";
 
 function MakingOfPage() {
 	return (
-		<div>
-			<h1>Making-of — Rapunzel</h1>
-			<img></img>
+		<div className="making-of-page">
+			<div className="banner-rapunzel">
+				<h1>Making-of — Rapunzel</h1>
+				<img
+					src="./public/banner_makingof.jpg"
+					alt="Rapunzel Banner"
+					id="banner"
+				/>
+			</div>
 			<div className="video">
 				<h3>Explainer video</h3>
-				<img></img>
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/So9o_CROe_Y?si=Bb2iNXYuuIUVnnwf"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				></iframe>
 			</div>
-			<div className="dis">
+			<div className="description">
 				<h3>description</h3>
 				<p>
 					Scroll through the enchanted forest where Snow White’s story unfolds
@@ -21,8 +37,17 @@ function MakingOfPage() {
 					front-end magic. With parallax scrolls and animated charm, this tale
 					isn’t just told — it’s experienced.
 				</p>
-				<Link to="/sprookje">Visite Rapunzel</Link>
-                <button>Visit website</button>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+				<Link to="/sprookje">Visite website</Link>
 			</div>
 		</div>
 	);

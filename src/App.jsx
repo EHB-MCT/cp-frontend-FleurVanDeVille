@@ -16,8 +16,8 @@ function App() {
 						<Route index element={<HomePage />} />
 						<Route path="/projects" element={<ProjectPage />} />
 						<Route path="/making-of" element={<MakingOfPage />} />
-						<Route path="/sprookje" element={<Sprookje />} />
 					</Route>
+					<Route path="/sprookje" element={<Sprookje />} />
 				</Routes>
 			</HashRouter>
 		</>

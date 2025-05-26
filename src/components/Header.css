@@ -28,6 +28,7 @@ header {
     justify-content: center;
     font-weight: bold;
     margin-bottom: -10px;
+    font-family: "Bungee";
 }
 
 header > div {
