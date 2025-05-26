@@ -10,12 +10,33 @@ footer {
     gap: 45px;
 }
 
-p{
+.links a {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+p {
     font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
 
-h1{
+h1 {
     font-size: 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-links {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

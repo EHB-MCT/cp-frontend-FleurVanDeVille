@@ -1,11 +1,14 @@
 import DATA from '../api/data.json';
 import FairyTale from "../components/Fairytales";
-import React, { useState } from "react";
 import "../../src/App.css";
 import "./Project-page.css";
+import { useLocation } from "react-router";
 
 function ProjectPage() {
-    const [searchTerm] = useState("");
+    const location = useLocation();
+	const searchParams = new URLSearchParams(location.search);
+	const searchTerm = searchParams.get("search") || "";
+
     const filteredFairyTale = DATA.filter((fairytale) => 
         fairytale.title.toLowerCase().includes(searchTerm.toLowerCase())
     );

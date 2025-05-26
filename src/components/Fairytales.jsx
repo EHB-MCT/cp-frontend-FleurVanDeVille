@@ -5,7 +5,7 @@ function Fairytales(props) {
         <img src={props.image} alt="" style={{ width: "200px", height: "auto"}}/>
         <h3>{props.title}</h3>
         <p>{props.student }</p>
-        <img src="../../public/info.png" style={{ width: "50px", height: "auto" }}/>
+        <img src="./public/info.png" style={{ width: "20px", height: "auto" }}/>
       </div>
     </>
   )

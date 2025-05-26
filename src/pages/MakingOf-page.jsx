@@ -46,7 +46,6 @@ function MakingOfPage() {
 				<br></br>
 				<br></br>
 				<br></br>
-				<br></br>
 				<Link to="/sprookje">Visite website</Link>
 			</div>
 		</div>

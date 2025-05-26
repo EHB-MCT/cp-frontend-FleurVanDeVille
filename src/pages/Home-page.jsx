@@ -1,9 +1,10 @@
 import DATA from "../api/data.json";
-import React, { useState } from "react";
+import { useState } from "react";
 import FairyTale from "../components/Fairytales";
 import "../../src/App.css";
 import "./Home-page.css";
 import { useNavigate } from "react-router";
+
 
 function HomePage() {
 	const [searchTerm] = useState("");
