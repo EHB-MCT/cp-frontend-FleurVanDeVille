@@ -1,28 +1,25 @@
 import "../../src/App.css";
+import Scene1 from "../components/Scene1.jsx";
+import Scene2 from "../components/Scene2.jsx";
 
 function Sprookje() {
-    return (
-        <div>
-            <h1>Making-of — Rapunzel</h1>
-            <img></img>
-            <div className="video">
-                <h3>Explainer video</h3>
-                <img></img>
-            </div>
-            <div className="dis">
-                <h3>description</h3>
-                <p>
-                    Scroll through the enchanted forest where Snow White’s story unfolds
-                    in layers of depth and wonder. Watch the poison apple float gently
-                    towards you, while woodland creatures slide in from the sides. As you
-                    move through the page, the Evil Queen’s mirror whispers secrets, and
-                    dwarves pop up from behind trees with helpful tips about the world of
-                    front-end magic. With parallax scrolls and animated charm, this tale
-                    isn’t just told — it’s experienced.
-                </p>
-            </div>
-        </div>
-    );
+	return (
+		<>
+			<div className="sprookje-page">
+				<Scene1 />
+                <Scene2 />
+				<div style={{ height: "100vh", background: "lightblue" }}>
+					<h2>Volgende sectie</h2>
+				</div>
+				<div
+					style={{
+						height: "200vh",
+						background: "linear-gradient(to bottom, black, purple)",
+					}}
+				/>
+			</div>
+		</>
+	);
 }
 
 export default Sprookje;

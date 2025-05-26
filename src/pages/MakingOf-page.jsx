@@ -8,7 +8,7 @@ function MakingOfPage() {
 			<div className="banner-rapunzel">
 				<h1>Making-of — Rapunzel</h1>
 				<img
-					src="./public/banner_makingof.jpg"
+					src="./banner_makingof.jpg"
 					alt="Rapunzel Banner"
 					id="banner"
 				/>

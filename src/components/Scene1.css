@@ -1,0 +1,57 @@
+.scene1 {
+  height: 200vh;
+  position: relative;
+}
+
+.scene1-content {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.foreground-trees {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: none;
+    z-index: 10;
+}
+
+.rapunzel-title {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 200px;
+  font-family: 'Italianno', serif;
+  font-weight: lighter;
+  text-align: center;
+  z-index: 10;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.background-image,
+.foreground-trees,
+.rapunzel-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}

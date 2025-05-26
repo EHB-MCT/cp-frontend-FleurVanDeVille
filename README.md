@@ -21,3 +21,5 @@ copilot
 
 klasgenoten
 
+https://chatgpt.com/share/6834e2e5-0688-8008-a178-d86b318aaadb -> om de eerste scene te maken en het te verstaan hoe framer motion werkt.
+
