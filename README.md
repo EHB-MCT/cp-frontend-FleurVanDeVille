@@ -34,8 +34,6 @@ or go on the link: https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/#/
 
 
 ## Sources 🗃️
-- [Cors documentation](https://www.baeldung.com/spring-cors) => used for fixing cors error | used in src > main > kotlin > be.ehb.safetyfirstfleurvdvarnob > controller > *
-
 - [Vue documentation](https://vuejs.org) => used to better understand how the vue project setup works.
 
 - [CoPilot](https://copilot.microsoft.com/chats/GdejiEP5a74ftRBhDeXYb)
