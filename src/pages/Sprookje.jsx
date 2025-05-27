@@ -8,6 +8,7 @@ import Scene6 from "../components/Scene6.jsx";
 import Scene7 from "../components/Scene7.jsx";
 import Scene8 from "../components/Scene8.jsx";
 import Scene9 from "../components/Scene9.jsx";
+import Scene10 from "../components/Scene10.jsx";
 
 function Sprookje() {
 	return (
@@ -22,16 +23,7 @@ function Sprookje() {
 				<Scene7 />
 				<Scene8 />
 				<Scene9 />
-
-				<div style={{ height: "100vh", background: "lightblue" }}>
-					<h2>Volgende sectie</h2>
-				</div>
-				<div
-					style={{
-						height: "200vh",
-						background: "linear-gradient(to bottom, black, purple)",
-					}}
-				/>
+				<Scene10 />
 			</div>
 		</>
 	);

@@ -1,64 +1,60 @@
 .scene9 {
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
+	height: 200vh;
+	position: relative;
 }
 
 .scene9-content {
-  position: relative;
-  width: 100%;
-  height: 100%;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.overlay-gradient {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
+	z-index: 1;
 }
 
 .foreground-trees {
-  position: absolute;
-  top: 0;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: none;
-  z-index: 10;
-}
-
-.tower {
-  position: absolute;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: none;
-  z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 2;
 }
 
 .story-text {
-  position: fixed;
-  top: 50%;
-  left: 20%;
-  color: white;
-  font-size: 30px;
-  font-family: "Crimson Text", "serif";
-  font-weight: 400;
-  text-align: center;
-  z-index: 10;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
-
-.background-image,
-.witch,
-.story-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	color: white;
+	font-size: 1.8rem;
+	font-family: "Crimson Text", serif;
+	font-weight: 400;
+	text-align: center;
+	max-width: 600px;
+	padding: 1.5rem 2rem;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 1rem;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+	line-height: 1.5;
 }

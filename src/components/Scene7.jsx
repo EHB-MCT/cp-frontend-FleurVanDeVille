@@ -15,30 +15,23 @@ function Scene7() {
 	const zoomScale = useSpring(zoomScaleRaw, { stiffness: 30, damping: 30 });
 	const zoomScale2Raw = useTransform(scrollYProgress, [0, 1], [1, 1.5]);
 	const zoomScale2 = useSpring(zoomScale2Raw, { stiffness: 30, damping: 30 });
-	const titleScale = useTransform(scrollYProgress, [0, 0.3], [0.1, 0.8]);
+	const titleScale = useTransform(scrollYProgress, [0, 0.3], [0, 0.9]);
 	const titleOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
 	return (
 		<section ref={ref} className="scene7">
 			<div className="scene7-content">
 				<img
-					src="./sprookjes/image2.1.jpg"
+					src="./sprookjes/image6.1.jpg"
 					alt="forest"
 					className="background-image"
 				/>
 
 				<motion.img
-					src="./sprookjes/image2.2.png"
+					src="./sprookjes/image6.2.png"
 					alt="foreground-trees"
 					className="foreground-trees"
 					style={{ scale: zoomScale2 }}
-				/>
-
-				<motion.img
-					src="./sprookjes/image2.3.png"
-					alt="tower"
-					className="tower"
-					style={{ scale: zoomScale }}
 				/>
 
 				<motion.p

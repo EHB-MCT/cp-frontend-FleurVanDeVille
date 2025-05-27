@@ -11,7 +11,7 @@ function Scene8() {
 		offset: ["start start", "end 100%"],
 	});
 
-	const treesX = useTransform(scrollYProgress, [0, 1], ["35%", "0%"]);
+	const treesY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
 	const titleScale = useTransform(scrollYProgress, [0, 0.3], [0.1, 0.8]);
 	const titleOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
@@ -19,16 +19,16 @@ function Scene8() {
 		<section ref={ref} className="scene8">
 			<div className="scene8-content">
 				<img
-					src="./sprookjes/image1.1.jpg"
-					alt="Sleeping Rapunzel"
+					src="./sprookjes/image7.1.jpg"
+					alt="Rapunzel"
 					className="background-image"
 				/>
 
 				<motion.img
-					src="./sprookjes/image1.2.png"
-					alt="Witch"
-					className="witch"
-					style={{ x: treesX }}
+					src="./sprookjes/image7.2.png"
+					alt="Tear"
+					className="tear"
+					style={{ y: treesY }}
 				/>
 
 				<motion.p

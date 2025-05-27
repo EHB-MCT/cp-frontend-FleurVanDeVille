@@ -11,7 +11,7 @@ function Scene5() {
 		offset: ["start start", "end 100%"],
 	});
 
-	const treesX = useTransform(scrollYProgress, [0, 1], ["35%", "0%"]);
+	const boyY = useTransform(scrollYProgress, [0, 1], ["20%", "-40%"]);
 	const titleScale = useTransform(scrollYProgress, [0, 0.3], [0.1, 0.8]);
 	const titleOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
@@ -19,16 +19,16 @@ function Scene5() {
 		<section ref={ref} className="scene5">
 			<div className="scene5-content">
 				<img
-					src="./sprookjes/image1.1.jpg"
-					alt="Sleeping Rapunzel"
+					src="./sprookjes/image4.1.jpg"
+					alt="tower wall"
 					className="background-image"
 				/>
 
 				<motion.img
-					src="./sprookjes/image1.2.png"
-					alt="Witch"
-					className="witch"
-					style={{ x: treesX }}
+					src="./sprookjes/image4.2.png"
+					alt="boy"
+					className="boy"
+					style={{ y: boyY }}
 				/>
 
 				<motion.p
@@ -38,9 +38,12 @@ function Scene5() {
 						opacity: titleOpacity,
 					}}
 				>
-					A golden flower with healing magic was found and used to save a dying <br></br>
-					queen. Her baby, Rapunzel, was born with magical golden hair. An old <br></br>
-					lady tried to kidnap Rapunzel to have the power for her own.
+					One day, Flynn Rider, a thief on the run, discovered the tower and
+					<br></br>
+					climbed inside. Rapunzel knocks him out but then makes a deal—if he
+					<br></br>
+					takes her to see the floating lights, she’ll return his stolen
+					satchel.
 				</motion.p>
 			</div>
 		</section>

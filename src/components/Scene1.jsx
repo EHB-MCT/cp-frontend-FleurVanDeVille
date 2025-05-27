@@ -11,8 +11,8 @@ function Scene1() {
 		offset: ["start start", "end start"],
 	});
 
-	const treesX = useTransform(scrollYProgress, [0, 1], ["-50%", "-100%"]);
-    const treesXX = useTransform(scrollYProgress, [0, 1], ["-50%", "50%"]);
+	const treesX = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
+    const treesXX = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
 	const titleScale = useTransform(scrollYProgress, [0, 0.3], [0.1, 0.8]);
 	const titleOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 

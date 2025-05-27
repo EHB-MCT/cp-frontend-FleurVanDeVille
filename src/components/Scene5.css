@@ -1,13 +1,13 @@
 .scene5 {
-  height: 200vh;
-  position: relative;
+    height: 200vh;
+    position: relative;
 }
 
 .scene5-content {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .background-image {
@@ -20,10 +20,9 @@
     z-index: 0;
 }
 
-.witch {
+.boy {
     position: absolute;
-    top: 0;
-    left: 50%;
+    left: 0;
     transform: translateX(-50%);
     width: 100%;
     max-width: none;
@@ -31,24 +30,24 @@
 }
 
 .story-text {
-  position: fixed;
-  top: 50%;
-  left: 20%;
-  color: white;
-  font-size: 30px;
-  font-family: "Crimson Text", "serif";
-  font-weight: 400;
-  text-align: center;
-  z-index: 10;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    top: auto;
+    color: white;
+    font-size: 30px;
+    font-family: "Crimson Text", "serif";
+    font-weight: 400;
+    text-align: left;
+    z-index: 10;
+    width: 40%;
 }
 
 .no-scroll {
     overflow: hidden;
 }
 
-.background-image,
-.witch,
-.story-text {
+.background-image {
     position: absolute;
     top: 0;
     left: 0;
