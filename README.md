@@ -34,8 +34,6 @@ or go on the link: https://ehb-mct.github.io/cp-frontend-FleurVanDeVille/#/
 
 
 ## Sources 🗃️
-- [Vue documentation](https://vuejs.org) => used to better understand how the vue project setup works.
-
 - [CoPilot](https://copilot.microsoft.com/chats/GdejiEP5a74ftRBhDeXYb)
 
 - Fellow students => Optimising code, helping with debugging...
