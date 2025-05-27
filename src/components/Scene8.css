@@ -1,0 +1,57 @@
+.scene8 {
+  height: 200vh;
+  position: relative;
+}
+
+.scene8-content {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.witch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: none;
+    z-index: 10;
+}
+
+.story-text {
+  position: fixed;
+  top: 50%;
+  left: 20%;
+  color: white;
+  font-size: 30px;
+  font-family: "Crimson Text", "serif";
+  font-weight: 400;
+  text-align: center;
+  z-index: 10;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.background-image,
+.witch,
+.story-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}

@@ -1,9 +1,9 @@
 import "../../src/App.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import "./Scene2.css";
+import "./Scene6.css";
 
-function Scene2() {
+function Scene6() {
 	const ref = useRef(null);
 
 	const { scrollYProgress } = useScroll({
@@ -16,8 +16,8 @@ function Scene2() {
 	const titleOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
 	return (
-		<section ref={ref} className="scene2">
-			<div className="scene2-content">
+		<section ref={ref} className="scene6">
+			<div className="scene6-content">
 				<img
 					src="./sprookjes/image1.1.jpg"
 					alt="Sleeping Rapunzel"
@@ -47,4 +47,4 @@ function Scene2() {
 	);
 }
 
-export default Scene2;
+export default Scene6;

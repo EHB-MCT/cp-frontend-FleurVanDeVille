@@ -1,9 +1,9 @@
 import "../../src/App.css";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import "./Scene2.css";
+import "./Scene4.css";
 
-function Scene2() {
+function Scene4() {
 	const ref = useRef(null);
 
 	const { scrollYProgress } = useScroll({
@@ -16,18 +16,18 @@ function Scene2() {
 	const titleOpacity = useTransform(scrollYProgress, [0, 0.2], [0, 1]);
 
 	return (
-		<section ref={ref} className="scene2">
-			<div className="scene2-content">
+		<section ref={ref} className="scene4">
+			<div className="scene4-content">
 				<img
-					src="./sprookjes/image1.1.jpg"
-					alt="Sleeping Rapunzel"
+					src="./sprookjes/image3.1.png"
+					alt="Window"
 					className="background-image"
 				/>
 
 				<motion.img
-					src="./sprookjes/image1.2.png"
-					alt="Witch"
-					className="witch"
+					src="./sprookjes/image3.2.png"
+					alt="Lanterns"
+					className="lanterns"
 					style={{ x: treesX }}
 				/>
 
@@ -38,13 +38,13 @@ function Scene2() {
 						opacity: titleOpacity,
 					}}
 				>
-					A golden flower with healing magic was found and used to save a dying <br></br>
-					queen. Her baby, Rapunzel, was born with magical golden hair. An old <br></br>
-					lady tried to kidnap Rapunzel to have the power for her own.
+					Rapunzel grew up in isolation, curious about the world, especially the <br></br>
+					floating lanterns she saw in the sky every year on her birthday. She<br></br>
+					dreamed of leaving the tower, but Gothel always refused.
 				</motion.p>
 			</div>
 		</section>
 	);
 }
 
-export default Scene2;
+export default Scene4;
